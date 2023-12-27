@@ -31,19 +31,19 @@ To run this program, you will need an environment that supports 16-bit assembly 
 3. **Compile the assembly code using TASM:**
 
     ```bash
-    tasm program.asm
+    tasm STACK.asm
     ```
 
 4. **Link the object file to create an executable:**
 
     ```bash
-    tlink program.obj
+    tlink STACK.obj
     ```
 
 5. **Run the executable:**
 
     ```bash
-    program.exe
+    STACK.exe
     ```
 
 Ensure that you have TASM installed and configured in your environment for successful compilation.
