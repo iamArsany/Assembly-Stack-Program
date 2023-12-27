@@ -8,8 +8,6 @@ This is a simple stack program written in x86 assembly language.The program allo
 - [Usage](#usage)
 - [Program Overview](#program-overview)
 - [Supported Operations](#supported-operations)
-- [Contributing](#contributing)
-- [License](#license)
 - [Procedures Overview](#procedures-overview)
 
 ## Getting Started
