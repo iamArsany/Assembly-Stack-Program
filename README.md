@@ -10,6 +10,7 @@ This is a simple stack program written in x86 assembly language.The program allo
 - [Supported Operations](#supported-operations)
 - [Contributing](#contributing)
 - [License](#license)
+- [Procedures Overview](#procedures-overview)
 
 ## Getting Started
 
@@ -74,3 +75,65 @@ The program is structured as a menu-driven application with options for various 
 4. **Size**: Display the current size of the stack.
 
 5. **isEmpty**: Check if the stack is empty.
+
+
+
+## Procedures Overview
+
+This assembly language program consists of the following procedures, each serving a specific purpose:
+
+1. **S_PUSH:**
+   - Description: Pushes an element onto the stack.
+
+2. **S_POP:**
+   - Description: Pops the top element from the stack.
+
+3. **S_PEEK:**
+   - Description: Peeks at the top element of the stack without removing it.
+
+4. **S_SIZE:**
+   - Description: Displays the current size of the stack.
+
+5. **S_ISEMPTY:**
+   - Description: Checks if the stack is empty.
+
+6. **LIST_PROCEDURES:**
+   - Description: Lists all procedures and their descriptions.
+
+7. **INPUT_CHAR:**
+   - Description: Reads a character from the standard input.
+
+8. **DISPLAY_CHAR:**
+   - Description: Displays a character to the standard output.
+
+9. **PRINT:**
+   - Description: Prints a null-terminated string to the standard output.
+
+10. **NEWLINE_PROC:**
+    - Description: Prints a newline character to the standard output.
+
+11. **PRINT_OPTIONS:**
+    - Description: Prints the available stack operation options.
+
+12. **S_PUSH:**
+    - Description: Adds an element to the stack. Increments the stack pointer.
+
+13. **S_POP:**
+    - Description: Removes the top element from the stack. Decrements the stack pointer.
+
+14. **S_PEEK:**
+    - Description: Displays the top element of the stack without removing it.
+
+15. **S_SIZE:**
+    - Description: Displays the current size of the stack.
+
+16. **S_ISEMPTY:**
+    - Description: Checks if the stack is empty.
+
+17. **ADD_EIGHT:**
+    - Description: Adds 8 to the stack pointer.
+
+18. **SUB_EIGHT:**
+    - Description: Subtracts 8 from the stack pointer.
+
+Feel free to explore the source code (program.asm) for detailed implementations of each procedure.
