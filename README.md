@@ -48,11 +48,14 @@ To run this program, you will need an environment that supports 16-bit assembly 
 
 Ensure that you have TASM installed and configured in your environment for successful compilation.
 
+
 ## Usage
 
 Upon running the program, you will be prompted with a menu to choose stack operations. Follow the on-screen instructions to perform push, pop, peek, size, and isEmpty operations.
 
+
 ## Program Overview
+
 
 The program is structured as a menu-driven application with options for various stack operations. Here is a brief overview of the main components:
 
@@ -63,6 +66,7 @@ The program is structured as a menu-driven application with options for various 
 - **Operation Execution**: Executes the chosen stack operation based on user input.
 
 - **Play Again**: After completing an operation, the user can choose to continue or exit the program.
+
 
 ## Supported Operations
 
@@ -75,6 +79,7 @@ The program is structured as a menu-driven application with options for various 
 4. **Size**: Display the current size of the stack.
 
 5. **isEmpty**: Check if the stack is empty.
+
 
 
 
@@ -97,43 +102,25 @@ This assembly language program consists of the following procedures, each servin
 5. **S_ISEMPTY:**
    - Description: Checks if the stack is empty.
 
-6. **LIST_PROCEDURES:**
-   - Description: Lists all procedures and their descriptions.
-
-7. **INPUT_CHAR:**
+6. **INPUT_CHAR:**
    - Description: Reads a character from the standard input.
 
-8. **DISPLAY_CHAR:**
+7. **DISPLAY_CHAR:**
    - Description: Displays a character to the standard output.
 
-9. **PRINT:**
+8. **PRINT:**
    - Description: Prints a null-terminated string to the standard output.
 
-10. **NEWLINE_PROC:**
+9. **NEWLINE_PROC:**
     - Description: Prints a newline character to the standard output.
 
-11. **PRINT_OPTIONS:**
+10. **PRINT_OPTIONS:**
     - Description: Prints the available stack operation options.
 
-12. **S_PUSH:**
-    - Description: Adds an element to the stack. Increments the stack pointer.
-
-13. **S_POP:**
-    - Description: Removes the top element from the stack. Decrements the stack pointer.
-
-14. **S_PEEK:**
-    - Description: Displays the top element of the stack without removing it.
-
-15. **S_SIZE:**
-    - Description: Displays the current size of the stack.
-
-16. **S_ISEMPTY:**
-    - Description: Checks if the stack is empty.
-
-17. **ADD_EIGHT:**
+11. **ADD_EIGHT:**
     - Description: Adds 8 to the stack pointer.
 
-18. **SUB_EIGHT:**
+12. **SUB_EIGHT:**
     - Description: Subtracts 8 from the stack pointer.
 
 Feel free to explore the source code (program.asm) for detailed implementations of each procedure.
