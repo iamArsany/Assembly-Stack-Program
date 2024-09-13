@@ -17,7 +17,7 @@ To run this program, you will need an environment that supports 16-bit assembly 
 1. **Clone the repository to your local machine:**
 
     ```bash
-    git clone https://github.com/your-username/assembly-stack-program.git
+    git clone https://github.com/iamArsany/assembly-stack-program.git
     ```
 
 2. **Navigate to the project directory:**
